@@ -14,6 +14,6 @@ public class IndexController {
 
     @GetMapping("/")
     public String index() {
-        return "您好，项目已启动，祝您使用愉快！";
+        return "您好，项目已启动，祝您使用不愉快！";
     }
 }
